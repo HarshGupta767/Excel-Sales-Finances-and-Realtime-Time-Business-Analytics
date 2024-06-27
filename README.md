@@ -1,5 +1,5 @@
 
-# Excel Sales and Finances Analytics
+# Excel Sales, Finances & Realtime Time Business Analytics.
 
 ## Customer Net Sales Report :
 
@@ -30,6 +30,20 @@
 - **Importance of analyzing Finance data:** Aid in benchmarking against industry peers and previous periods Foundation for budgeting and forecasting.
 
 - **Role of reports:** Align financial planning with strategic goals Instill confidence in the organization's financial outlook.
+
+
+## Customer Discount Approval Report :
+
+- **Project objective:** 
+
+    Create a _[customer discount approval report](https://github.com/HarshGupta767/Excel-Sales-Finances-and-Realtime-Time-Business-Analytics/blob/main/Customer%20Discount%20Approval.pdf)_ 
+
+ 
+- **Purpose of Customer Discount:** Enhance business's ability to monitor and evaluate their sales activities and performance, enabling them to make well-informed decisions. 
+
+- **Importance of analyzing sales data:** Identify sales patterns and track key performance indicators (KPIs). Leverage these insights to forecast trends, optimize marketing strategies, and drive business growth.
+
+- **Role of reports:** Determine effective customer discounts, facilitate negotiations with consumers, and identify potential business expansion opportunities in promising countries.
 
 
 ## Technical:
