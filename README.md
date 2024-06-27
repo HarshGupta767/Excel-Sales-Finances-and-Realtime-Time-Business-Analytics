@@ -32,11 +32,15 @@
 - **Role of reports:** Align financial planning with strategic goals Instill confidence in the organization's financial outlook.
 
 
-## Technical & Soft Skills:
-- [x]	Proficiency in ETL methodology (Extract, Transform, Load).
+## Technical:
+- [x] Basics of Excel with Conditional Formatting, Tables & Charts
+- [x] Data Cleaning & Proficiency in ETL methodology (Extract, Transform, Load).
 - [x]	Skills to generate a date table using Power Query.
-- [x]	Ability to derive fiscal months and quarters.
+- [x] Combining bad data using VLOOKUP, INDEXMATCH, XLOOKUP
+- [x] Business Math's and Statistics for KPIs
+- [x] Ability to derive fiscal months and quarters.
 - [x]	Establishing data model relationships with Power Pivot.
+- [x] Pivot Table for creating Business Reports
 - [x]	Proficiency in incorporating supplementary data into an existing data model.
 - [x]	Utilizing DAX to create calculated columns.
 
@@ -45,3 +49,6 @@
 - [x]	Designing user-centric reports with empathy in mind.
 - [x]	Optimization of report generation through meticulous fine-tuning.
 - [x]	Developing a systematic approach to devising a report building plan.
+- [x] Broadened perspective and significantly enhanced problem-solving abilities.
+
+
