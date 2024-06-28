@@ -39,11 +39,21 @@
     Create a _[customer discount approval report](https://github.com/HarshGupta767/Excel-Sales-Finances-and-Realtime-Time-Business-Analytics/blob/main/Customer%20Discount%20Approval.pdf)_ 
 
  
-- **Purpose of Customer Discount:** Enhance business's ability to monitor and evaluate their sales activities and performance, enabling them to make well-informed decisions. 
+- **Purpose of Customer Discount:** To analyze the worst, actual, and best-case sales scenarios, enabling the company to determine the optimal discount amount that ensures profitability for both manufacturers and retailers.
 
-- **Importance of analyzing sales data:** Identify sales patterns and track key performance indicators (KPIs). Leverage these insights to forecast trends, optimize marketing strategies, and drive business growth.
+- **Importance of determining customer discounts:** Increasing sales, attracting new customers, clearing inventory, and expanding market share will improve the company's profitability.
 
-- **Role of reports:** Determine effective customer discounts, facilitate negotiations with consumers, and identify potential business expansion opportunities in promising countries.
+
+## Project Priority Matrix Report :
+
+- **Project objective:** 
+
+    Create a _[project priority matrix report](https://github.com/HarshGupta767/Excel-Sales-Finances-and-Realtime-Time-Business-Analytics/blob/main/Projects%20Priority%20Metrix.pdf)_ 
+
+ 
+- **Purpose of Project Priority Matrix:** To analyze the worst, actual, and best-case sales scenarios, enabling the company to determine the optimal discount amount that ensures profitability for both manufacturers and retailers.
+
+- **Importance of determining customer discounts:** Increasing sales, attracting new customers, clearing inventory, and expanding market share will improve the company's profitability.
 
 
 ## Technical:
