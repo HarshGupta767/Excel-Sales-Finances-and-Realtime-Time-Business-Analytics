@@ -23,6 +23,8 @@
 
     **1.** Create Profit and Loss (P&L) reports by _[Fiscal Year](https://github.com/HarshGupta767/Excel-Sales-and-Finances-Analytics/blob/main/P%26L%20Statement%20by%20Fiscal%20Year.pdf)_ & _[Months](https://github.com/HarshGupta767/Excel-Sales-and-Finances-Analytics/blob/main/P%26L%20Statement%20by%20Month%20%26%20Quarter.pdf)_ 
 
+
+
    **2.** Create Profit and Loss (P&L) reports by _[Markets](https://github.com/HarshGupta767/Excel-Sales-and-Finances-Analytics/blob/main/P%26L%20Statement%20by%20Markets.pdf)_
 
 - **Purpose of sales analytics:** Evaluation of financial performance, support decision-making, and facilitate communication with stakeholders.
@@ -30,6 +32,11 @@
 - **Importance of analyzing Finance data:** Aid in benchmarking against industry peers and previous periods Foundation for budgeting and forecasting.
 
 - **Role of reports:** Align financial planning with strategic goals Instill confidence in the organization's financial outlook.
+
+
+### Connection Between Data Models in Excel Power Pivot:
+**Data Model of Customer Net Sales & Financial Report**
+    ![Data Model](https://github.com/HarshGupta767/Excel-Sales-Finances-and-Realtime-Time-Business-Analytics/blob/main/Sales%20and%20market%20project.png)
 
 
 ## Customer Discount Approval Report :
@@ -53,11 +60,11 @@
     Create a _[project priority matrix report](https://github.com/HarshGupta767/Excel-Sales-Finances-and-Realtime-Time-Business-Analytics/blob/main/Projects%20Priority%20Metrix.pdf)_ 
 
  
-- **Purpose of Project Priority Matrix:** To assist in analyzing which of the multiple projects is the most suitable and profitable for the company.
+- **Purpose of Project Priority Matrix:** To easily differentiate between multiple projects based on their feasibility, impact, and size.
 
-- **Importance of determining priority of projects:** 
+- **Importance of determining priority of projects:**  To assist in analyzing which of the multiple projects is the most suitable and profitable for the company.
 
-- **Role of reports:** 
+- **Role of reports:** The Project Priority Matrix offers a visual representation that helps decision makers achieve clarity and understanding regarding the necessary decisions.
 
 
 
