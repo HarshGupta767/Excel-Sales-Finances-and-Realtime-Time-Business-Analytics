@@ -43,6 +43,8 @@
 
 - **Importance of determining customer discounts:** Increasing sales, attracting new customers, clearing inventory, and expanding market share will improve the company's profitability.
 
+- **Role of reports:**
+
 
 ## Project Priority Matrix Report :
 
@@ -51,9 +53,12 @@
     Create a _[project priority matrix report](https://github.com/HarshGupta767/Excel-Sales-Finances-and-Realtime-Time-Business-Analytics/blob/main/Projects%20Priority%20Metrix.pdf)_ 
 
  
-- **Purpose of Project Priority Matrix:** To analyze the worst, actual, and best-case sales scenarios, enabling the company to determine the optimal discount amount that ensures profitability for both manufacturers and retailers.
+- **Purpose of Project Priority Matrix:** 
 
-- **Importance of determining customer discounts:** Increasing sales, attracting new customers, clearing inventory, and expanding market share will improve the company's profitability.
+- **Importance of determining customer discounts:** 
+
+- **Role of reports:**
+
 
 
 ## Technical:
