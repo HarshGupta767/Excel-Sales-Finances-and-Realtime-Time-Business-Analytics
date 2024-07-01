@@ -1,5 +1,5 @@
 
-# Excel Sales, Finances & Realtime Time Business Analytics.
+# Excel Sales, Finances & Realtime Business Analytics.
 
 ## Customer Net Sales Report :
 
