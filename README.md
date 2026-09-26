@@ -4,6 +4,7 @@
 
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/harshkumar-gupta-531034201/)
 
+
 > **📌 Project Objective**
 > Architected an automated, scalable enterprise reporting solution in Microsoft Excel to consolidate global sales data, enabling dynamic P&L reporting, market benchmarking, and scenario-based strategic planning.
 
