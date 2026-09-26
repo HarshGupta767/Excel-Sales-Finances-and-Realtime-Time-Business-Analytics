@@ -1,90 +1,39 @@
+# Enterprise Sales, Finance & Real-Time Business Analytics
 
-# Excel Sales, Finances & Realtime Business Analytics.
+### 📌 Project Objective
+Architected an automated, scalable enterprise reporting solution in Microsoft Excel to consolidate global sales data, enabling dynamic P&L reporting, market benchmarking, and scenario-based strategic planning.
 
-## Customer Net Sales Report :
+### 🚀 Key Business Impacts
+* **Revenue & P&L Tracking:** Authored custom calculations to automate dynamic Profit & Loss reporting, tracking Net Sales scaling from **$87.5M (FY19)** to **$598.9M (FY21)**, achieving a **+204.5% YoY growth**[cite: 20, 22, 24].
+* **Global Market Monitoring:** Evaluated cumulative financial performance across multiple global markets, monitoring a total Net Sales pipeline of **$883.05M** and maintaining a consolidated Gross Margin of **$327.72M (37.11% GM%)** over three fiscal years[cite: 23].
+* **Market Benchmarking & Variance:** Benchmarked sales performance against targets, identifying a **-$54.9M (-8.4%) target variance** in FY21 to successfully pinpoint underperforming territories, such as the USA (-$10.2M) and India (-$9.6M)[cite: 21].
+* **Strategic Decision Frameworks:** Equipped leadership with data-driven decision frameworks by designing an **8-project Priority Matrix** (evaluating feasibility vs. impact) and a scenario-based **Customer Discount Approval model**, simulating 30K to 100K unit volumes to safeguard a baseline **$100K Gross Margin** floor[cite: 18, 19].
 
+### 🏗️ Data Architecture & Modeling
+* **ETL & Transformation:** Processed raw sales records using Power Query for data extraction, cleaning, appending, and formatting.
+* **Schema Design:** Established a robust **Power Pivot Star Schema** connecting a central Fact table to modular Dimension tables (Customer, Market, etc.) to establish a single source of truth.
 
-- **Project objective:** 
+![Data Model](Data%20Model.png)
 
-    **1.** Create a _[customer net sales report](https://github.com/HarshGupta767/Excel-Sales-and-Finances-Analytics/blob/main/Customer%20Net%20Sales%20Performance.pdf)_ 
+### 📊 Core Reporting Modules & Data Insights
+1. **[Customer Net Sales Report](Reports_and_Dashboards/Customer%20Net%20Sales%20Performance.pdf):** Evaluates enterprise clients against historical performance to track specific revenue drivers. For example, tracked **Amazon's** growth from **$12.2M (2019)** to **$82.1M (2021)** (+218.9%), and **AtliQ e Store** from **$7.2M** to **$53.0M** (+223.8%), which heavily contributed to the overall $598.9M net sales volume[cite: 20].
+2. **[Market Performance vs. Target](Reports_and_Dashboards/Market%20Performance%20Vs%20Target.pdf):** An analytical view evaluating 20+ global countries against FY21 targets to isolate growth opportunities and mitigate losses. This report identified a total **-$54.9M (-8.4%) target variance**, providing leadership with exact regional gaps such as the **USA (-$10.2M)**, **India (-$9.6M)**, and **Canada (-$5.1M)**[cite: 21].
+3. **Financial P&L Summaries ([Yearly](Reports_and_Dashboards/P&L%20Statement%20by%20Fiscal%20Year.pdf) | [Market](Reports_and_Dashboards/P&L%20Statement%20by%20Markets.pdf) | [Monthly](Reports_and_Dashboards/P&L%20Statement%20by%20Month%20&%20Quarter.pdf)):** Delivers dynamic Profit & Loss statements filtering Net Sales, COGS, and Gross Margin. The consolidated market view reveals India as the largest revenue driver (**$241.85M**)[cite: 23], while the fiscal view tracks a slight margin compression from **41.43% (2019)** to **36.43% (2021)**, allowing executives to monitor profitability against scaling sales volume[cite: 22].
+4. **[Customer Discount Approval Model](Strategic_Tools/Customer%20Discount%20Approval.pdf):** A scenario-testing tool determining optimal volume-to-discount ratios. For example, modeled a **12.5% discount** scenario for "Croma" at a 32% COGS rate, demonstrating that even a "Worst Case" sales volume of **30,000 units** successfully clears the **$100,000 Gross Margin target** (yielding $100,852)[cite: 19].
+5. **[Project Priority Matrix](Strategic_Tools/Projects%20Priority%20Metrix.pdf):** A weighted 2x2 visualization mapping internal initiatives across Feasibility (X-axis) and Impact (Y-axis). It categorized 8 key initiatives into actionable quadrants—such as classifying **"Project WK"** (Feasibility 8, Impact 7) as a "Quick Win" and **"DB Integration"** (Feasibility 2, Impact 6) as a "Major Project"—enabling data-backed resource allocation[cite: 18].
 
-    **2.** Conduct a comprehensive comparison between _[market performance and sales targets](https://github.com/HarshGupta767/Excel-Sales-and-Finances-Analytics/blob/main/Market%20Performance%20Vs%20Target.pdf)_
+### 💻 Technical Competencies
+* **Excel Fundamentals:** Advanced Conditional Formatting, Tables, and dynamic Charts.
+* **Data Engineering (ETL):** Data cleaning and proficiency in Extract, Transform, Load methodologies.
+* **Power Query:** Generating robust Date tables and deriving custom fiscal months and quarters.
+* **Data Modeling:** Establishing table relationships with Power Pivot and incorporating supplementary data into existing schemas.
+* **Advanced Formulas:** Combining complex data sets using VLOOKUP, INDEX/MATCH, and XLOOKUP.
+* **DAX & KPIs:** Utilizing Data Analysis Expressions (DAX) to create calculated columns and apply business math and statistics for KPI generation.
+* **Reporting:** Leveraging complex Pivot Tables for executive business reporting.
 
-- **Purpose of sales analytics:** Enhance business's ability to monitor and evaluate their sales activities and performance, enabling them to make well-informed decisions. 
-
-- **Importance of analyzing sales data:** Identify sales patterns and track key performance indicators (KPIs). Leverage these insights to forecast trends, optimize marketing strategies, and drive business growth.
-
-- **Role of reports:** Determine effective customer discounts, facilitate negotiations with consumers, and identify potential business expansion opportunities in promising countries.
-
-
-## Finance Report :
-
-- **Project objective:** 
-
-    **1.** Create Profit and Loss (P&L) reports by _[Fiscal Year](https://github.com/HarshGupta767/Excel-Sales-and-Finances-Analytics/blob/main/P%26L%20Statement%20by%20Fiscal%20Year.pdf)_ & _[Months](https://github.com/HarshGupta767/Excel-Sales-and-Finances-Analytics/blob/main/P%26L%20Statement%20by%20Month%20%26%20Quarter.pdf)_ 
-
-
-
-   **2.** Create Profit and Loss (P&L) reports by _[Markets](https://github.com/HarshGupta767/Excel-Sales-and-Finances-Analytics/blob/main/P%26L%20Statement%20by%20Markets.pdf)_
-
-- **Purpose of sales analytics:** Evaluation of financial performance, support decision-making, and facilitate communication with stakeholders.
-
-- **Importance of analyzing Finance data:** Aid in benchmarking against industry peers and previous periods Foundation for budgeting and forecasting.
-
-- **Role of reports:** Align financial planning with strategic goals Instill confidence in the organization's financial outlook.
-
-
-### Connection Between Data Models in Excel Power Pivot:
-**Data Model of Customer Net Sales & Financial Report**
-    ![Data Model](https://github.com/HarshGupta767/Excel-Sales-Finances-and-Realtime-Time-Business-Analytics/blob/main/Sales%20and%20market%20project.png)
-
-
-## Customer Discount Approval Report :
-
-- **Project objective:** 
-
-    Create a _[customer discount approval report](https://github.com/HarshGupta767/Excel-Sales-Finances-and-Realtime-Time-Business-Analytics/blob/main/Customer%20Discount%20Approval.pdf)_ 
-
- 
-- **Purpose of Customer Discount:** To analyze the worst, actual, and best-case sales scenarios, enabling the company to determine the optimal discount amount that ensures profitability for both manufacturers and retailers.
-
-- **Importance of determining customer discounts:** Increasing sales, attracting new customers or consumers, clearing inventory, and expanding market share will improve the manufacturing company's profitability.
-
-- **Role of reports:** Illustrates the potential discounts that a manufacturing company can offer to customers, considering the company's financial outlook
-
-
-## Project Priority Matrix Report :
-
-- **Project objective:** 
-
-    Create a _[project priority matrix report](https://github.com/HarshGupta767/Excel-Sales-Finances-and-Realtime-Time-Business-Analytics/blob/main/Projects%20Priority%20Metrix.pdf)_ 
-
- 
-- **Purpose of Project Priority Matrix:** To easily differentiate between multiple projects based on their feasibility, impact, and size.
-
-- **Importance of determining priority of projects:**  To assist in analyzing which of the multiple projects is the most suitable and profitable for the company.
-
-- **Role of reports:** The Project Priority Matrix offers a visual representation that helps decision makers achieve clarity and understanding regarding the necessary decisions.
-
-
-
-## Technical:
-- [x] Basics of Excel with Conditional Formatting, Tables & Charts
-- [x] Data Cleaning & Proficiency in ETL methodology (Extract, Transform, Load).
-- [x]	Skills to generate a date table using Power Query.
-- [x] Combining bad data using VLOOKUP, INDEXMATCH, XLOOKUP
-- [x] Business Math's and Statistics for KPIs
-- [x] Ability to derive fiscal months and quarters.
-- [x]	Establishing data model relationships with Power Pivot.
-- [x] Pivot Table for creating Business Reports
-- [x]	Proficiency in incorporating supplementary data into an existing data model.
-- [x]	Utilizing DAX to create calculated columns.
-
-## Soft Skills:
-- [x]	Refined understanding of Sales & Finance Reports
-- [x]	Designing user-centric reports with empathy in mind.
-- [x]	Optimization of report generation through meticulous fine-tuning.
-- [x]	Developing a systematic approach to devising a report building plan.
-- [x] Broadened perspective and significantly enhanced problem-solving abilities.
-
-
+### 🧠 Soft Skills & Business Acumen
+* **Domain Knowledge:** Refined understanding of Sales & Finance reporting requirements and financial logic.
+* **User-Centric Design:** Designing layouts and interfaces with end-user empathy in mind to ensure readability.
+* **Process Optimization:** Meticulous fine-tuning of report generation to optimize analytical workflows.
+* **Strategic Planning:** Developing a systematic approach to devising a comprehensive report-building plan from raw data to final dashboard.
+* **Analytical Thinking:** Broadened perspective and enhanced problem-solving abilities to resolve data integration challenges.
